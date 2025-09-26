@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndoreShops - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">IndoreShops</div>
+        </header>
+        
+        <main>
+            <h1>Coming Soon</h1>
+            <p class="subtitle">We're working hard to bring you an amazing multi-vendor shopping experience in Indore!</p>
+            
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+            
+            <div class="notify-form">
+                <h3>Get Notified When We Launch</h3>
+                <form id="notifyMe" action="https://formsubmit.co/brn.rajoriya@gmail.com" method="POST">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    <!-- Optional customization -->
+                    <input type="hidden" name="_subject" value="New Indoreshops notify-me signup">
+                    <input type="hidden" name="_next" value="https://indoreshops.github.io/?success=1">
+                    <input type="hidden" name="_autoresponse" value="Thanks for subscribing! We’ll notify you when Indoreshops launches.">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
+                    <button type="submit">Notify Me</button>
+                </form>
+                <p class="form-message" id="formMessage"></p>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2025 IndoreShops. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
